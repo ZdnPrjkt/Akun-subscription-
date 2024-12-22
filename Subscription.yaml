@@ -1,0 +1,71 @@
+proxies:
+  - name: 1 🇸🇬 Akamai Connected Cloud WS NTLS [nautica]
+    server: nontontv.vidio.com
+    port: 80
+    type: vless
+    uuid: 957c5bad-4ad0-4b29-b681-ca746ca57e00
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /103.3.63.253-46683
+      headers:
+        Host: nautica.foolvpn.me
+  - name: 2 🇸🇬 DigitalOcean WS NTLS [nautica]
+    server: nontontv.vidio.com
+    port: 80
+    type: vless
+    uuid: 957c5bad-4ad0-4b29-b681-ca746ca57e00
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /104.248.145.216-443
+      headers:
+        Host: nautica.foolvpn.me      
+  - name: 3 🇸🇬 SoftLayer Technologies Inc. WS NTLS [nautica]
+    server: nontontv.vidio.com
+    port: 80
+    type: vless
+    uuid: 957c5bad-4ad0-4b29-b681-ca746ca57e00
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /119.81.201.154-9089
+      headers:
+        Host: nautica.foolvpn.me          
+  - name: 4 🇸🇬 Oracle Corporation WS NTLS [nautica]
+    server: nontontv.vidio.com
+    port: 80
+    type: vless
+    uuid: 957c5bad-4ad0-4b29-b681-ca746ca57e00
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /129.150.36.188-53435
+      headers:
+        Host: nautica.foolvpn.me        
+  - name: 5 🇸🇬 Amazon.com WS NTLS [nautica]
+    server: nontontv.vidio.com
+    port: 80
+    type: vless
+    uuid: 9ed7e081-13c2-403b-8fb3-143b77eaaf31
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /13.250.38.94-443
+      headers:
+        Host: nautica.foolvpn.me        
